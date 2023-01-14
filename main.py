@@ -91,11 +91,11 @@ def check():
 
 
 
-fillField() # заполнил field нулями
-insertElements() # заменяет нули на рандомные числа
-printMatrix() # вывел изначальную матрицу
+fillField()
+insertElements() 
+printMatrix() 
 
-field_copy = deepcopy(field) # делает deepcopy изначальной матрицы для isChanged()
-for i in range(N): # Проверяет N количетсво раз совпадения
+field_copy = deepcopy(field) 
+for i in range(N): 
     check()
-printMatrix() # выводит ответ
+printMatrix() 
